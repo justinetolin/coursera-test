@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+h1 {
+    margin-bottom: 15px;
+    font-family: Product Sans, Arial, sans-serif;
+    text-align: center;
+    font-size: 175%;
+}
+
+p {
+    border: 1px solid black;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Kalam', cursive;
+    font-size: 125%;
+}
+
+.BMS, .MAC, .CSP {
+    padding: 10px;
+    padding-top: 50px;
+    position: relative;
+}
+
+.BMS {
+    background-color: #ffbebe;
+}
+
+.MAC {
+    background-color: #beffcd;
+}
+
+.CSP {
+    background-color: #befbff;
+}
+
+#BakedMacStyle, #MacAndCheese, #CurlySpaghetti {
+    border: 1px solid black;
+    padding: 10px;
+    float: left;
+    width: 200px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: Product Sans;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 100%;
+    position: absolute;
+    top: -1px;
+    left: -199px;
+}
+
+#BakedMacStyle {
+    background-color: #ffe884;
+}
+
+#MacAndCheese {
+    background-color: #8684ff;
+    color: white;
+}
+
+#CurlySpaghetti {
+    background-color: #e7c1ff;
+}
+
+/* Simple Responsize Framework Here */
+.row {
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .col-lg-1, .col-lg-2, .col-lg-3 {
+        float: left;
+    }
+    .col-lg-1 {
+        width: 33.33%;
+    }
+    .col-lg-2 {
+        width: 33.33%;
+    }
+    .col-lg-3 {
+        width: 33.33%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-1, .col-md-2, .col-md-3 {
+        float: left;
+    }
+    .col-md-1 {
+        width: 50%;
+    }
+    .col-md-2 {
+        width: 50%;
+    }
+    .col-md-3 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-md-1, .col-md-2, .col-md-3 {
+        float: left;
+    }
+    .col-md-1 {
+        width: 100%;
+    }
+    .col-md-2 {
+        width: 100%;
+    }
+    .col-md-3 {
+        width: 100%;
+    }
+}
