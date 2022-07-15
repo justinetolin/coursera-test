@@ -95,6 +95,10 @@ p {
     }
     .col-md-12 {
         width: 100%;
+        display: block;
+    }
+    .CSP {
+        width: 95%;
     }
 }
 
