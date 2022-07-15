@@ -98,7 +98,10 @@ p {
         display: block;
     }
     .CSP {
-        width: 95%;
+        display: inline-block;
+        width: 95.4%;
+        position: absolute;
+        left: 19px;
     }
 }
 
