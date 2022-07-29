@@ -4,7 +4,7 @@ body {
     font-family: 'Kalam', sans-serif;
 }
 #header-nav {
-    background-color: #7161ef;
+    background-color: #999999;
     border-radius: 0;
     border: 0;
 }
@@ -39,19 +39,14 @@ body {
   }
   #nav-list a {
     color: #fff;
+    text-align: center;
     font-weight: 600;
     letter-spacing: 1px;
   }
   #nav-list a:hover {
     background: #fff;
-    color: #5704DB;
-  }
- #nav-list li.active a {
-  background-color: #fff;  
-  color: #5704DB;
-  font-weight: bold;
- }
-  
+    color: #999999;
+  }  
   .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
     border: 1px solid #ffffff;
   }
@@ -75,21 +70,26 @@ body {
   margin-top: 5px;
   margin-bottom: 25px;
 }
-#menu-section {
-  background-color: #ffbebe;
-  margin-bottom: 15px;
+.menu-grid {
+  /* background-color: #ffbebe; */
+  background-color: #999999;
+  margin-bottom: 20px;
 }
+.chicken, .beef, .sushi {
+  padding: 10px 20px 5px 20px;
+}
+/* .menu-grid.chicken {
+  background-color: #ffbebe;
+}
+.menu-grid.beef {
+    background-color: #beffcd;
+}
+.menu-grid.sushi {
+    background-color: #befbff;
+} */
 #menu-title {
   font-weight: bold;
-}
-.msg {
-  font-weight: bold;
-}
-.ungradedsol {
-  text-decoration: none;
-  color: #5704DB;
-}
-.ungradedsol:hover {
-  text-decoration: none underline;
-  color: #000;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
 }

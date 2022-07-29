@@ -39,14 +39,19 @@ body {
   }
   #nav-list a {
     color: #fff;
-    text-align: center;
     font-weight: 600;
     letter-spacing: 1px;
   }
   #nav-list a:hover {
     background: #fff;
     color: #5704DB;
-  }  
+  }
+ #nav-list li.active a {
+  background-color: #fff;  
+  color: #5704DB;
+  font-weight: bold;
+ }
+  
   .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
     border: 1px solid #ffffff;
   }
@@ -70,27 +75,12 @@ body {
   margin-top: 5px;
   margin-bottom: 25px;
 }
-.menu-grid {
+#menu-section {
   background-color: #ffbebe;
-  margin-bottom: 20px;
-}
-.BMS, .MAC, .CSP {
-  padding: 10px 10px 5px 10px;
-}
-.menu-grid.BMS {
-  background-color: #ffbebe;
-}
-.menu-grid.MAC {
-    background-color: #beffcd;
-}
-.menu-grid.CSP {
-    background-color: #befbff;
+  margin-bottom: 15px;
 }
 #menu-title {
   font-weight: bold;
-  padding: 0;
-  margin: 0;
-  margin-bottom: 10px;
 }
 .msg {
   font-weight: bold;
