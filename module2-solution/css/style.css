@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+h1 {
+    margin-bottom: 15px;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    font-size: 175%;
+}
+
+p {
+    border: 1px solid black;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Kalam', cursive;
+    font-size: 125%;
+}
+.margin-fix {
+    margin: 10px;
+}
+.menu-content {
+    padding: 10px;
+    padding-top: 40px;
+    position: relative;
+}
+
+.chicken-content {
+    background-color: #ffbebe;
+}
+
+.beef-content {
+    background-color: #beffcd;
+}
+
+.sushi-content {
+    background-color: #befbff;
+}
+
+#chicken-title, #beef-title, #sushi-title {
+    border: 1px solid black;
+    padding: 5px 10px 5px 10px;
+    float: left;
+    width: 180px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 100%;
+    position: absolute;
+    top: -1px;
+    left: -179px;
+}
+
+#chicken-title {
+    background-color: #ffe884;
+}
+
+#beef-title {
+    background-color: #8684ff;
+    color: white;
+}
+
+#sushi-title {
+    background-color: #e7c1ff;
+}
+
+/* Simple Responsize Framework Here */
+.row {
+    width: 100%;
+}
+
+/* ---Desktop--- */
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+/* ---Tablet--- */
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6, .col-md-12 {
+        float: left;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-12 {
+        width: 100%;
+        display: block;
+    }
+    .CSP {
+        width: 95%;
+    }
+}
+
+/* ---Phone--- */
+@media (max-width: 767px) {
+    .col-lg-4 {
+        float: left;
+        width: 100%;
+    }
+
+}
