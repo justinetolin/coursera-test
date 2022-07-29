@@ -82,6 +82,9 @@ body {
 #menu-title {
   font-weight: bold;
 }
+.msg {
+  font-weight: bold;
+}
 .ungradedsol {
   text-decoration: none;
   color: #5704DB;

@@ -92,6 +92,9 @@ body {
   margin: 0;
   margin-bottom: 10px;
 }
+.msg {
+  font-weight: bold;
+}
 .ungradedsol {
   text-decoration: none;
   color: #5704DB;
