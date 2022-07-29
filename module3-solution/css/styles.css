@@ -86,7 +86,6 @@ body {
   color: #5704DB;
 }
 .ungradedsol:hover {
-  text-decoration: none;
-  color: #fff;
-  text-shadow: 0px 0px 10px#5704DB;
+  text-decoration: none underline;
+  color: #000;
 }
